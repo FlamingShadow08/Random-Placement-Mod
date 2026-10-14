@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "randomplacement",
+	"version": "${version}",
+	"name": "RandomPlacement",
+	"description": "Place your hotbar blocks randomly!",
+	"authors": [
+		"FlamingShadow"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/randomplacement/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"flamingshadow.randomplacement.RandomPlacement"
+		],
+		"client": [
+			"flamingshadow.randomplacement.RandomPlacementClient"
+		]
+	},
+	"mixins": [
+		"randomplacement.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
