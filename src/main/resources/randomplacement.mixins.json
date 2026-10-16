@@ -3,7 +3,8 @@
 	"package": "flamingshadow.randomplacement.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"RandomPlacementMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

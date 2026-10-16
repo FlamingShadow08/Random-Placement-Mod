@@ -2,15 +2,15 @@
 	"schemaVersion": 1,
 	"id": "randomplacement",
 	"version": "${version}",
-	"name": "RandomPlacement",
-	"description": "Place your hotbar blocks randomly!",
+	"name": "Random Placement",
+	"description": "Place random blocks from your hotbar with every right click!\n\nTired of switching between blocks while building? Random Placement picks a random block from your hotbar whenever you right click to place a block.\n\nPress R to toggle Random Placement on or off. You can change the keybind in Minecraft's Controls menu.\n\nLess scrolling through your hotbar, more building!",
 	"authors": [
 		"FlamingShadow"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FlamingShadow08/RandomPlacementMod"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-NC-4.0",
 	"icon": "assets/randomplacement/icon.png",
 	"environment": "*",
 	"entrypoints": {

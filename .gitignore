@@ -1,40 +1,45 @@
-# gradle
-
+# Gradle
 .gradle/
 build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled Java / Kotlin output
 out/
-classes/
+*.class
 
-# eclipse
-
-*.launch
-
-# idea
-
+# IntelliJ IDEA
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# vscode
-
-.settings/
-.vscode/
-bin/
-.classpath
+# Eclipse
 .project
+.classpath
+.settings/
 
-# macos
+# Visual Studio Code
+.vscode/
 
-*.DS_Store
-
-# fabric
-
+# Minecraft / Fabric development run directory
 run/
+logs/
+crash-reports/
+hs_err_pid*
+replay_pid*
 
-# java
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-hs_err_*.log
-replay_*.log
-*.hprof
-*.jfr
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
